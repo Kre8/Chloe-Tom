@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+<script src="https://www.paypal.com/sdk/js?client-id=AYPiGNVZNjoqpWNp-oF-uX40YDYbjQG6q9GIIfcYcXs6GSFtl6XgeDrKAZtoOTpNk1yrCbQNzyCnXsB5"></script>
+<style>
+body::-webkit-scrollbar-track {
+width: 0.01px !important;
+pointer-events: none;
+background-color: transparent;
+display:none;
+height:0.001px;
+--scrollbarBG: #cfd8dc00;
+--thumbBG: #90a4ae00;
+opacity:0;
+}
+body::-webkit-scrollbar-track-piece {
+width: 0.01px !important;
+pointer-events: none;
+background-color: transparent;
+display:none;
+height:0.001px;
+--scrollbarBG: #cfd8dc00 !important;
+--thumbBG: #90a4ae00;
+opacity:0;
+
+}
+body::-webkit-scrollbar{
+background-color: transparent;
+display:none;
+--scrollbarBG: #cfd8dc00;
+--thumbBG: #90a4ae00;
+height:0.001px;
+pointer-events: none;
+opacity:0;
+}
+@media (min-width: 100px) {
+.rex{
+background-color: rgba(230, 12, 81, 0.559);
+}
+.rex::after{
+content:'W-100px';
+color:black;
+}
+.gift{
+height:20vh !important;
+}
+.grid{
+grid-template-columns: repeat(2, 49%);
+}
+.g2{
+width:96%;
+height:fit-content;
+grid-column: auto / span 2;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(0.7) translateY(8vh);
+}
+.modal-button-wrap{
+margin-left:32%;
+transform: scale(0.7) translateY(0px) !important;
+}
+
+.modal-button {
+margin-left:-12vw;
+margin-top:-4vh;
+transform: scale(1.5) translateY(40px);
+}
+.giftvalue{
+transform: scale(0.75);
+margin-left:10px;
+margin-top:0px;
+
+}
+
+}
+@media (min-width: 200px) {
+.rex{
+background-color: rgba(230, 12, 81, 0.559);
+}
+.rex::after{
+content:'W-200px';
+color:black;
+}
+.gift{
+height:20vh !important;
+}
+.gifttitle{
+width:45%;
+margin-top:0vh !important;
+transform: scale(0.5) translateY(18vh);
+}
+}
+@media (min-width: 300px) {
+.rex{
+background-color: rgba(230, 12, 81, 0.559);
+}
+.rex::after{
+content:'W-300px';
+color:black;
+}
+.gift{
+height:200px !important;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(0.9) translateY(18vh);
+}
+.modal-button {
+margin-left:-12vw;
+margin-top:-4vh;
+transform: scale(1.5) translateY(20px);
+}
+}
+@media (min-width: 400px) {
+.rex::after{
+content:'W-400px';
+}
+.gift{
+height:200px !important;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(0.9) translateY(18vh);
+}
+}
+@media (min-width: 450px) {
+.rex::after{
+content:'W-450px';
+}
+.gift{
+height:250px !important;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(0.9) translateY(18vh);
+}
+}
+@media (min-width: 500px) {
+.rex::after{
+content:'W-500px';
+}
+.gift{
+height:300px !important;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(1) translateY(22vh);
+}
+.modal-button {
+margin-left:-12vw;
+margin-top:-4vh;
+transform: scale(1.5) translateY(20px);
+}
+}
+@media (min-width: 600px) {
+.rex::after{
+content:'W-600px';
+}
+.gift{
+height:350px !important;
+}
+.gifttitle{
+width:48%;
+margin-top:0vh !important;
+transform: scale(1) translateY(120px);
+}
+
+}
+@media (min-width: 700px) {
+.gift{
+height:60vh !important;
+}
+.rex::after{
+content:'W-700px';
+color:black;
+}
+.gift{
+height:400px !important;
+}
+.gifttitle{
+width:48% !important;
+margin-top:100px !important;
+}
+}
+@media (min-width: 800px) {
+.gift{
+height:60vh !important;
+}
+.rex::after{
+content:'W-800px';
+color:black;
+}
+.gift{
+height:420px !important;
+}
+.gifttitle{
+width:48% !important;
+margin-top:150px !important;
+}
+}
+@media (min-width: 900px) {
+.rex::after{
+content:'W-900px';
+color:black;
+}
+.grid{
+grid-template-columns: repeat(3, 32%);
+}
+.g2{
+width:96%;
+height:fit-content;
+grid-column: auto / span 3;
+}
+.giftvalue{
+transform: scale(0.7);
+margin-left:0px;
+margin-top:0px;
+}
+.gift{
+height:380px !important;
+}
+.gifttitle{
+width:31% !important;
+margin-top:30px !important;
+}
+.modal-button-wrap{
+float:right;
+
+margin-left:18%;
+transform: scale(0.6) translateY(20px) translateX(10px);
+}
+
+.modal-button {
+margin-left:-12vw;
+margin-top:-4vh;
+}
+
+}
+@media (min-width: 1200px) {
+.rex::after{
+content:'W-1200px';
+}
+.gift{
+height:450px !important;
+}
+.gifttitle{
+margin-top:150px !important;
+}
+}
+@media (min-width: 1500px) {
+.rex::after{
+content:'W-1500px';
+color:black;
+}
+.gift{
+height:550px !important;
+}
+.gifttitle{
+margin-top:200px !important;
+}
+}
+
+
+</style>
+<style>
+@media (min-height: 100px) {
+.rex2::after{
+content:'H-100px';
+color:black;
+}
+}
+@media (min-height: 300px) {
+.rex2::after{
+content:'H-300px';
+}
+}
+@media (min-height: 500px) {
+.rex2::after{
+content:'H-500px';
+}
+}
+@media (min-height: 800px) {
+.rex2::after{
+content:'H-800px';
+}
+}
+</style>
+<style>
+.grid{
+display: grid;
+padding: 1vw;
+row-gap: 2vh;
+column-gap: 2vw;
+}
+.gift{
+width:100%;
+height:50vh;
+background-color: rgb(192, 232, 255);
+box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.415);
+background-position: 30% ;
+border-radius: 10px;
+background-repeat: no-repeat;
+background-size: 200% auto;
+transition: all 250ms ease-in-out;
+}
+.g2{
+background-color: rgb(255, 255, 255);
+box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.415);
+background-position: 30% ;
+border-radius: 10px;
+background-repeat: no-repeat;
+background-size: 200% auto;
+color:grey;
+font-size: calc(40% +1vw);
+padding:2vw;
+text-align: center;
+font-style: italic;
+}
+.gifttitle{
+color:rgb(230, 230, 230);
+font-size: calc(180% + 3vw);
+font-weight: 900;
+z-index: 999999999;
+display:inline-block;
+position: absolute;
+text-align: center;
+text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.629);
+}
+.giftvalue{
+font-size: calc(30% + 3vw);
+line-height: 2.5em;
+width:9vw;
+height:9vw;
+background-color: rgba(255, 255, 255, 0.799);
+padding:1.5vw;
+border-radius: 50%;
+text-align: center;
+color:grey;
+box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.55);
+transition: all 250ms ease-in-out;
+}
+.modal-button-wrap{
+font-size: calc(50% + 3vw);
+line-height: 2em;
+width:9vw;
+height:9vw;
+background-color: rgba(216, 216, 216, 0.249);
+padding:1.5vw;
+border-radius: 50%;
+text-align: center;
+color:rgb(255, 255, 255);
+position:absolute;
+font-weight: 900;
+box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.55);
+overflow: hidden;
+border:2px solid white;
+text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.52);
+}
+
+.modal-button {
+cursor: pointer;
+display: inline;
+width:22vw !important;
+height:7vh;
+position: absolute;
+color:transparent;
+}
+
+.greybox::-webkit-scrollbar-track {
+width: 0.01px;
+pointer-events: none;
+background-color: transparent;
+display:none;
+height:0.001px;
+--scrollbarBG: #cfd8dc00;
+--thumbBG: #90a4ae00;
+opacity:0;
+}
+.greybox::-webkit-scrollbar-track-piece {
+width: 0.01px;
+pointer-events: none;
+background-color: transparent;
+display:none;
+height:0.001px;
+--scrollbarBG: #cfd8dc00;
+--thumbBG: #90a4ae00;
+opacity:0;
+
+}
+.greybox::-webkit-scrollbar{
+background-color: transparent;
+display:none;
+--scrollbarBG: #cfd8dc00;
+--thumbBG: #90a4ae00;
+height:0.001px;
+pointer-events: none;
+opacity:0;
+}
+.modal-container {
+display: none;
+width: 100%;
+height: 100vh;
+z-index: 1000;
+margin-left:-2vw;
+overflow: hidden;
+position: fixed;
+z-index: 9999999999999;
+perspective: 500px;
+transform-style: preserve-3d;
+opacity: 0;
+transition: opacity 0.3s ease-in-out; /* Added transition */
+}
+.modal-content {
+width: 100%;
+height: 100vh;
+margin-top: 3vh;
+position: absolute;
+z-index: 9999999999;
+animation: flip 1s ease-in-out;
+backface-visibility: hidden;
+}
+
+.closer {
+width:90vw;
+height:110vh;
+transform: translateY(-5vh) translateX(2vw)!important;
+border:none;
+border-radius: 30px;
+background-color: transparent;
+padding: 10px;
+z-index: 9 !important;
+position: fixed;
+transition: 0.3s ease-in-out; /* Added transition */
+}
+
+.greybox{
+width:80vw; 
+height:60vh; 
+margin-left:5vw; 
+border-radius:10px; 
+z-index: 9999999999999999999999999;
+position: fixed;
+box-shadow: -2px 2px 2px black;
+padding:5vw;
+margin-top:10vh;
+font-size: calc(100% + 1vw);
+background: rgb(227,245,255);
+background: linear-gradient(0deg, #e3f5ff 0%, rgba(242,250,255,1) 55%, rgba(203,217,224,1) 100%);
+overflow-y: scroll;
+}
+</style>
+    </head>
+    <body>
+<!--
+<div class="rex" style="position:absolute;z-index:99999999; width:fit-content; height:fit-content; padding:10px"></div>
+<div class="rex2" style="position:absolute;z-index:99999999; width:fit-content; height:fit-content; padding:10px;
+margin-top:10vh; background-color: rgba(0, 128, 0, 0.498);"></div>-->
+<!--&   CANDLE BUY   -->
+<div class="modal-container" id="candlebuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<div>
+  <div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+    <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/100d0398f906eb3ae37f07cf213a538d00a5fb54/original.png" alt="Candles" onerror="this.style.display='none'" style="width: 100%;">
+  <div style="padding: 20px;">
+      <p style="
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+  ">$45.00</p>
+    <a target="_blank" data-url="https://square.link/u/xCKzfndE?src=embd" href="https://square.link/u/xCKzfndE?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #000000;
+    min-width: 212px;
+    background-color: #e3f5ff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+  ">Pay now</a>
+  </div>
+</div>
+
+
+  <script>
+    function showCheckoutWindow(e) {
+      e.preventDefault();
+
+      const url = document.getElementById('embedded-checkout-modal-checkout-button').getAttribute('data-url');
+      const title = 'Square Payment Links';
+
+      // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
+      const topWindow = window.top ? window.top : window;
+
+      // Fixes dual-screen position                                Most browsers          Firefox
+      const dualScreenLeft = topWindow.screenLeft !==  undefined ? topWindow.screenLeft : topWindow.screenX;
+      const dualScreenTop = topWindow.screenTop !==  undefined   ? topWindow.screenTop  : topWindow.screenY;
+
+      const width = topWindow.innerWidth ? topWindow.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+      const height = topWindow.innerHeight ? topWindow.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+      const h = height * .75;
+      const w = 500;
+
+      const systemZoom = width / topWindow.screen.availWidth;
+      const left = (width - w) / 2 / systemZoom + dualScreenLeft;
+      const top = (height - h) / 2 / systemZoom + dualScreenTop;
+      const newWindow = window.open(url, title, `scrollbars=yes, width=${w / systemZoom}, height=${h / systemZoom}, top=${top}, left=${left}`);
+
+      if (window.focus) newWindow.focus();
+    }
+
+    // This overrides the default checkout button click handler to show the embed modal
+    // instead of opening a new tab with the given link url
+    document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
+      showCheckoutWindow(e);
+    });
+  </script>
+</div>
+<!--<h3><i>Thankyou!</i></h3>
+<p>Candles: $45</p>
+
+<form id="payment-form">
+  <label for="card-number">Card Number</label>
+  <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+  
+  <label for="expiry-date">Expiry Date</label>
+  <input type="text" id="expiry-date" placeholder="MM/YY" required><br>
+  
+  <label for="cvv">CVV</label>
+  <input type="text" id="cvv" placeholder="123" required>
+  
+  <button type="submit">Pay Now</button>
+</form>-->
+
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+<!--&   PERFUME BUY   -->
+<div class="modal-container" id="perfumebuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Perfume: $300</p>
+<div style="overflow: auto;display: flex;flex-direction: column;justify-content:flex-end;align-items: center;width: 259px;background: #FFFFFF;border: 1px solid rgba(0, 0, 0, 0.1);box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);border-radius: 10px;font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;">
+    <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/6004af86e4ee871a05ebfe0d0353e538ac31e2ba/original.png" alt="Perfume" onerror="this.style.display='none'" style="width: 100%;">
+  <div style="padding: 20px;">
+      <p style="font-size: 18px;line-height: 20px;font-weight: 600;">$300.00</p>
+
+ 
+  </div>
+</div>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   CUTLERY BUY   -->
+<div class="modal-container" id="cutlerybuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   ROBE BUY   -->
+<div class="modal-container" id="robebuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Robes: $60</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   GLASSWARE BUY   -->
+<div class="modal-container" id="glasswarebuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Glassware: $90</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   BOOKS BUY   -->
+<div class="modal-container" id="booksbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Books: $50</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   CURTAINS BUY   -->
+<div class="modal-container" id="curtainsbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Curtains: $355</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   TEAPOT BUY   -->
+<div class="modal-container" id="teapotbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Teapot: $40</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+<!--&   ART BUY   -->
+<div class="modal-container" id="artbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Art: $100</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+<!--&   CUSHIONS BUY   -->
+<div class="modal-container" id="cushionsbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3><i>Thankyou!</i></h3>
+<p>Cushions: $60</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+
+
+
+
+
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+<!--&   BEDDING BUY   -->
+<div class="modal-container" id="beddingbuy">
+<div class="modal-content" style="">
+<div>
+<button class="closer"></button>
+<!--MAIN TEXT-->
+<div class="greybox" >
+<h3 style="margin-top:-10px"><i>Thankyou!</i></h3>
+<p>Bedding: $160</p>
+<p>Please pay for gifts by direct deposit:</p>
+<p>
+Chloe and Tom's Wedding
+<br>Acc:100xxxxxxx, BSB:09xxxxx
+<a style="font-size: 12px; font-style: italic;">(Please put item name in deposit 'description.')</a>
+</p>
+<form id="buyForm">
+<label for="buying">Would you like to remove this item from the registry?</label>
+<select class="yesno" id="buying" name="buying" style="height:5vh;">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+<br>
+<label for="namenote">Name or note:</label>
+<input type="text" id="namenote" name="namenote"><br>
+
+<button type="submit">Send name/note</button>
+</form>
+<br>
+</div>
+
+
+
+
+
+<!--IMAGE-->
+
+</div>
+</div></div>
+</div>
+
+
+
+    <div class="grid">
+<div class="g2"> <P style="text-align:left; font-style: italic;">Dear friends,</P>We do not expect any gifts and would love if you would just bring yourselves.  We have, however, set up some options for those that cannot be dissuaded<br> Love C&T</div>
+
+<div class="gift" style="background-image:url(wedding_images/bluecandle.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">candlebuy</a>
+</div>
+<div class="gifttitle" style="">Candles</div>
+<div class="giftvalue">$45</div>
+
+</div>
+
+
+
+<div class="gift" style="background-image:url(wedding_images/perfume3.png)">
+
+<a  class="modal-button-wrap" href="https://square.link/u/KMYY4gqC?src=embed"  onclick="window.open('https://square.link/u/KMYY4gqC?src=embed', 'popup', 'location=0,width=750,height=650,left=500,top=55'); return false;" class="btn btn-primary btn-sm">Buy now</a>
+
+<div class="gifttitle">Perfume</div>
+<div class="giftvalue">$300</div>
+</div>
+
+<div class="gift" style="background-image:url(wedding_images/cutlery4.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;display:inline-block;">cutlerybuy</a>
+</div>
+<div class="gifttitle">Cutlery</div>
+<div class="giftvalue">$170</div>
+</div>
+
+
+<div class="gift" style="background-image:url(wedding_images/robes.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;display:inline-block;">robebuy</a>
+</div>
+<div class="gifttitle">Robes</div>
+<div class="giftvalue">$60</div>
+</div>
+
+
+<div class="gift" style="background-image:url(wedding_images/bluewine.png); background-position: 30% ;">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none; display:inline-block;">glasswarebuy</a>
+</div>
+<div class="gifttitle">Glassware</div>
+<div class="giftvalue">$90</div>
+</div>
+
+
+<div class="gift" style="background-image:url(wedding_images/books.png); background-position: 30% ;">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">booksbuy</a>
+</div>
+<div class="gifttitle">Books</div>
+<div class="giftvalue">$50</div>
+</div>
+
+
+<div class="gift" style="background-image:url(wedding_images/curtain.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">curtainsbuy</a>
+</div>
+<div class="gifttitle">Curtains</div>
+<div class="giftvalue">$355</div>
+</div>
+
+<div class="gift" style="background-image:url(wedding_images/teapot.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">teapotbuy</a>
+</div>
+<div class="gifttitle">Teapot</div>
+<div class="giftvalue">$40</div>
+</div>
+
+<div class="gift" style="background-image:url(wedding_images/art2.jpg)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">artbuy</a>
+</div>
+<div class="gifttitle">Art</div>
+<div class="giftvalue">$100</div>
+</div>
+
+
+
+<div class="gift" style="background-image:url(wedding_images/cushions2.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">cushionsbuy</a>
+</div>
+<div class="gifttitle">Cushions</div>
+<div class="giftvalue">$60</div>
+</div>
+
+<div class="gift" style="background-image:url(wedding_images/bedding.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">beddingbuy</a>
+</div>
+<div class="gifttitle">Bedding</div>
+<div class="giftvalue">$160</div>
+</div>
+
+
+<div class="gift" style="background-image:url(wedding_images/massage.png)">
+<div class="modal-button-wrap">buy
+<a class="modal-button" style="color:rgba(0, 0, 0, 0);text-shadow: none;">massagebuy</a>
+</div>
+<div class="gifttitle">Couples<br>massage</div>
+<div class="giftvalue">$200</div>
+</div>
+
+
+
+</div><!--grid-->
+
+<script src="https://www.paypal.com/sdk/js?client-id=BAAKhDYpawRvi5ODfWLvcV_GkCFrwvjAQ3VdbI2GlKJNz66E9tw04T556TcTmE2XcW1uQu0DZ1DPCkTbHQ&currency=AUD">
+</script>
+
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "KD4TWKPP4LU6E",
+  }).render("#paypal-container-KD4TWKPP4LU6E")
+</script>
+
+<!--PAYPAL script-->
+<script>
+paypal.Buttons({
+  createOrder: function(data, actions) {
+    return actions.order.create({
+      purchase_units: [{
+        amount: {
+          value: '10.00' // Replace with the actual amount to charge
+        }
+      }]
+    });
+  },
+  onApprove: function(data, actions) {
+    return actions.order.capture().then(function(details) {
+      alert('Transaction completed by ' + details.payer.name.given_name);
+      // Optionally, you can redirect the user to a thank you page or perform other actions here
+    });
+  }
+}).render('#payment-form');
+</script> 
+        <script src="modal.js" async defer></script>
+
+
+<!--STRIPE STUFF
+
+
+
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1OsYRyGaUD3fEmHEVq7Er1Nc"
+publishable-key="pk_live_51OsXEdGaUD3fEmHEer8ELRrajnIwcHuI13TLqJDjCE4LQgzQnfzK7p3sjhfyJwbRbO8ljLF7JaHVFWUT8LhBDGhp006pnRczIo">
+</stripe-pricing-table>
+-->
+    </body>
+</html>
